@@ -1,5 +1,5 @@
 body {
-  background: #333333;
+  background: #FFF;
   font-family: 'Raleway Dots', cursive;
 }
 h1 {
@@ -20,8 +20,8 @@ h1 {
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
   word-break: break-all;
-  color: #fff;
-  font-family: 'Raleway Dots', cursive;;
+  color: #333333;
+  font-family: 'Arial', cursive;;
   font-size: 8px;
   font-weight: bold;
   letter-spacing: -1px;
@@ -176,24 +176,24 @@ h1 {
 
 @-webkit-keyframes OpeningSequence {
   0% {
-    text-shadow: 0 0 50px #fff;
+    text-shadow: 0 0 50px #333333;
     letter-spacing: 80px;
     opacity: 0;
     -webkit-transform: rotateY(-90deg);
   }
   50% {
-    text-shadow: 0 0 1px #fff;
+    text-shadow: 0 0 1px #333333;
     letter-spacing: 14px;
     opacity: 0.8;
     -webkit-transform: rotateY(0deg);
   }
   85% {
-    text-shadow: 0 0 1px #fff;
+    text-shadow: 0 0 1px #333333;
     opacity: 0.8;
     -webkit-transform: rotateY(0deg) translateZ(100px);
   }
   100% {
-    text-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 10px #333333;
     opacity: 0;
     -webkit-transform: translateZ(130px);
     pointer-events: none;
@@ -202,24 +202,24 @@ h1 {
 
 @-moz-keyframes OpeningSequence {
   0% {
-    text-shadow: 0 0 50px #fff;
+    text-shadow: 0 0 50px #333333;
     letter-spacing: 80px;
     opacity: 0.2;
     -moz-transform: rotateY(-90deg);
   }
   50% {
-    text-shadow: 0 0 1px #fff;
+    text-shadow: 0 0 1px #333333;
     letter-spacing: 14px;
     opacity: 0.8;
     -moz-transform: rotateY(0deg);
   }
   85% {
-    text-shadow: 0 0 1px #fff;
+    text-shadow: 0 0 1px #333333;
     opacity: 0.8;
     -moz-transform: rotateY(0deg) translateZ(100px);
   }
   100% {
-    text-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 10px #333333;
     opacity: 0;
     -moz-transform: translateZ(130px);
     pointer-events: none;
@@ -228,24 +228,24 @@ h1 {
 
 @keyframes OpeningSequence {
   0% {
-    text-shadow: 0 0 50px #fff;
+    text-shadow: 0 0 50px #333333;
     letter-spacing: 80px;
     opacity: 0.2;
     transform: rotateY(-90deg);
   }
   50% {
-    text-shadow: 0 0 1px #fff;
+    text-shadow: 0 0 1px #333333;
     letter-spacing: 14px;
     opacity: 0.8;
     transform: rotateY(0deg);
   }
   85% {
-    text-shadow: 0 0 1px #fff;
+    text-shadow: 0 0 1px #333333;
     opacity: 0.8;
     transform: rotateY(0deg) translateZ(100px);
   }
   100% {
-    text-shadow: 0 0 10px #fff;
+    text-shadow: 0 0 10px #333333;
     opacity: 0;
     transform: translateZ(130px);
     pointer-events: none;
@@ -262,33 +262,33 @@ h1 {
 @-webkit-keyframes FadeIn { 
   0% {
     opacity: 0;
-    text-shadow: 0 0 50px #fff;
+    text-shadow: 0 0 50px #333333;
   }
   100% {
     opacity: 0.8;
-    text-shadow: 0 0 1px #fff;
+    text-shadow: 0 0 1px #333333;
   }
 }
 
 @-moz-keyframes FadeIn { 
   0% {
     opacity: 0;
-    text-shadow: 0 0 50px #fff;
+    text-shadow: 0 0 50px #333333;
   }
   100% {
     opacity: 0.8;
-    text-shadow: 0 0 1px #fff;
+    text-shadow: 0 0 1px #333333;
   }
 }
 
 @keyframes FadeIn { 
   0% {
     opacity: 0;
-    text-shadow: 0 0 50px #fff;
+    text-shadow: 0 0 50px #333333;
   }
   100% {
     opacity: 0.8;
-    text-shadow: 0 0 1px #fff;
+    text-shadow: 0 0 1px #333333;
   }
 }
 
